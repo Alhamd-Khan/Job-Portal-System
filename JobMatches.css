@@ -1,0 +1,137 @@
+/* Job Matches Styles */
+.job-matches {
+  padding: 2rem 0;
+}
+
+.job-matches .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.job-matches h2 {
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+/* Skill Suggestions */
+.skill-suggestions {
+  background: #e3f2fd;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.skill-suggestions h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #1976d2;
+}
+
+.skill-suggestions ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.skill-suggestions li {
+  background: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  color: #1976d2;
+}
+
+/* Job Grid */
+.job-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.job-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.job-card .match-score {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.job-card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.job-card .company {
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.job-card .location {
+  color: #888;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.job-card .strengths,
+.job-card .improvements {
+  margin-top: 1rem;
+}
+
+.job-card .strengths h5,
+.job-card .improvements h5 {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.job-card .strengths ul,
+.job-card .improvements ul {
+  font-size: 0.85rem;
+  padding-left: 1.2rem;
+}
+
+.job-card .strengths li {
+  color: #4caf50;
+}
+
+.job-card .improvements li {
+  color: #f44336;
+}
+
+.job-card .view-job {
+  margin-top: auto;
+  padding: 0.75rem;
+  background: #1976d2;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.job-card .view-job:hover {
+  background: #1565c0;
+}
+
+/* Other Matches Section */
+.other-matches {
+  margin-top: 3rem;
+}
+
+.other-matches h3 {
+  margin-bottom: 1.5rem;
+  color: #666;
+}
