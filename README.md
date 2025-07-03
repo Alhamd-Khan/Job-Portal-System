@@ -7,6 +7,7 @@ A modern, full-featured Job Portal built with the MERN stack — connecting empl
 ✨ Features
 
 🔹 Dual Login System:
+
     👨‍💼 Employer/Admin Dashboard — Post jobs, manage listings
     
     👨‍💻 Job Seeker Dashboard — Upload resume, apply for jobs
